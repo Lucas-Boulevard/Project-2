@@ -1,0 +1,60 @@
+body {
+    font-family: "Figtree", sans-serif;
+    background-color: #f5d04e;
+}
+
+.container{
+    width: 70%;
+    margin: 30% auto;
+    padding: 1.5em;
+    background-color: white;
+    border-radius: 1em;
+    border: solid 0.1em black;
+    box-shadow: 0.6em 0.6em black;
+}
+
+.container-img1{
+    display: block;
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 2em;
+}
+
+.container-p1{
+    background-color: #f6cd52;
+    padding: 0.6em;
+    display: inline;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.container-titre{
+    font-size: 1.2em;
+}
+
+.container-titre:hover{
+    color: #f6cd52;
+}
+
+.container-p2{
+    color: #9f9f9f;
+}
+
+.container-profil{
+    display: flex;
+    align-items: center;
+}
+
+.container-img2{
+    width: 12%;
+    height: 12%;
+    margin-right: 0.8em;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1440px) {
+    .container{
+        width: 20%;
+        margin: 5% auto;
+    }
+}
